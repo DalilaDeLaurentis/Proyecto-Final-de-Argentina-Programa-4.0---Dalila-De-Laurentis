@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Estilos CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/apple-touch-icon.png"
+    />
+
+    <!-- Animaciones CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>ADRIANA GIUGGIOLINI | Desarrollador Web</title>
+  </head>
+
+  <body>
+    <nav>
+      <h1>ADRIANA GIUGGIOLINI</h1>
+      <ul class="navegacion">
+        <li><a href="#mas-sobre" class="nav-link">Experiencia</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="menu-hamburguesa" id="menu-hamburguesa">
+        <ion-icon class="barras" name="menu-outline"></ion-icon>
+      </button>
+      </nav>
+
+    <section class="hero" id="about">
+      <img
+        src="assets/images/chicafeliz.jpg"
+        alt="ADRIANA-GIUGGIOLINI"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-titulo">SOBRE MI</h2>
+        <p class="bio-texto">
+          Desarrolladora web innovadora, proactiva y con capacidad para desarrollar páginas web elegantes, pioneras y diseños de aplicaciones para clientes exigentes. Organizado y con capacidad de multitarea con experiencia en programación de proyectos, mejora de diseños y verificación del codigo. Habilidades de desarrollo web y aplicaciones móviles para una posicion estimulante en una compañia modema, abierta y profesional.
+          
+        </p>
+      </div>
+      </section>
+
+    <!-- Sobre Mí -->
+    <section class="mas-sobre" id="mas-sobre">
+      <h2>MI RECORRIDO HASTA HOY</h2>
+      <p>
+        <strong>10/2018 – Presente  Analista – Programadora, Servicios Técnicos IT, Bilbao</strong>
+         <li>Toma de requerimientos con el cliente </li>
+         <li>Análisis de requerimientos y diseño de aplicaciones </li>
+         <li>Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL</li>
+         <li>Soporte técnico a clientes</li>
+      </p>
+
+      <p>  
+        <strong>12/2014 - 10/2018 Programadora Full Stack, Finanbest, Madrid</strong>
+         <li>Desarrollo Front End y Back End de aplicaciones con Typescript, Javascript, PHP, MySQL, HTML5</li>
+         <li>Realización de test de aplicaciones</li>
+         <li>Solución de incidencias</li>
+      </p>
+
+      <p> 
+        <strong>07/2011 - 12/2014 Programadora web, Sistemas Informáticos SL, Madrid</strong>
+         <li>Desarrollo de aplicaciones web para clientes de la empresa del sector financiero utilizando Javascript, PHP</li>
+         <li>Mantenimiento de aplicaciones web</li>
+         <li>Maquetación HTML5, CSS3, Bootstrap</li>
+         <li>Manejo de datos XML, JSON</li>
+      </p>
+    </section>
+
+    <!-- Sección Habilidades -->
+ <section class="habilidades" id="habilidades">
+      <h2 class="encabezado-habilidad">Mis mejores habilidades</h2>
+
+      <div class="contenedor-habilidades">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt="html-5"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt="css3"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt="javascript"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt="bootstrap"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt="react-native"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-json-100.png"
+            alt="git"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+
+    <!-- Sección Contacto-->
+    <section class="contacto" id="contacto">
+      <h2>Contactame</h2>
+      <div class="formulario-contacto-contenedor">
+        <div class="formulario-contacto">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="control-formulario">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Escribe tu nombre"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="control-formulario">
+              <label for="email">Correo Electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Ingreso tu correo electrónico"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="control-formulario">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                cols="60"
+                rows="10"
+                placeholder="Escribe tu mensaje"
+                name="mensaje"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Enviar"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+        <!-- Sección Footer  -->
+        <footer>
+          <p class="copy">&copy; Copyright 2023</p>
+          <p class="copy">
+            Hecho con &#x2661; por 
+            <a href="https://www.instagram.com/ochinchinisme/" target="_blank"
+              > Dalila De Laurentis </a
+            >
+          </p>
+        </footer>
+
+    <!-- Sección de redes sociales - Fijado a la derecha -->
+
+    <div class="sociales">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-64.png"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram-64.png"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-rodeado-de-círculo-64.png"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="assets/icons/icons8-github-64.png" 
+        alt="Github" 
+        class="socicon"
+      /></a>
+
+    <!-- Vuelve al comienzo  -->
+
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+    ><img
+      src="assets/icons/icons8-chevron-arriba-en-círculo-64.png"
+      class="socicon up-arrow"
+      alt="desplazarse-hacia-arriba"
+  /></i>
+
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
